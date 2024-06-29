@@ -1,4 +1,4 @@
-favicon: /img/favicon.png
+favicon: /img/favicon.ico
 logo:
   html: <img src="/img/logo.gif" />
   style:
@@ -8,11 +8,11 @@ logo:
 
 nav:
   Home: /
-  Project: /project
-  Todo: /todo
   Tags: /tags
+  Todo: /todo
+  Project: /project
+  Archives: /archives
   About: /about
-
 
 # custom aside
 aside:
