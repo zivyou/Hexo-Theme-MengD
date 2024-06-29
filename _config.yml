@@ -8,6 +8,11 @@ logo:
 
 nav:
   Home: /
+  Project: /project
+  Todo: /todo
+  Tags: /tags
+  About: /about
+
 
 # custom aside
 aside:
@@ -51,7 +56,7 @@ wordcount:
 # article
 post:
   # author avatar
-  avatar: https://www.imlete.cn/img/avatar.png
+  avatar: /img/favicon.ico
   # article abstract
   abstract: 200
   # The default is the `date_format` and `time_format` fields in the hexo configuration file (_config.yml)
@@ -79,3 +84,8 @@ highlight_theme: default # default / darker / pale night / light / ocean / mac /
 footer:
   since: 2020
   custom: A clean and lightweight Hexo theme
+
+# MathJax Support
+mathjax:
+  enable: true
+  cdn: http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML

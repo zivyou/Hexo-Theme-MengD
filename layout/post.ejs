@@ -29,7 +29,11 @@
       </div>
     </div>
   </div>
-  <div class="article-content"><%- page.content %></div>
+  <div class="article-content">
+    <% if (theme.mathjax){ %>
+      <%- partial('mathjax') %>
+    <% } %>
+  <%- page.content %></div>
   <% 
     const categories = page.categories.data
     const tags = page.tags.data
